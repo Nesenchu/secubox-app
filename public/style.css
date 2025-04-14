@@ -1,0 +1,32 @@
+/* Общие стили */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #ffcc00; /* Желтый для заголовков */
+  }
+  
+  p {
+    color: #dddddd;
+  }
+  
+  a {
+    color: #1e90ff; /* Синий для ссылок */
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  

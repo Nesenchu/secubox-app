@@ -29,7 +29,7 @@ app.use(
   session({
     secret: process.env.SESSION_SECRET || 'default-secret', // Убедитесь, что секретный ключ скрыт в переменных окружения
     resave: false,
-    saveUninitialized: true,
+    saveUninitialized: false,
     cookie: { secure: process.env.NODE_ENV === 'production' }, // Устанавливайте secure в true, если используете HTTPS
   })
 );
